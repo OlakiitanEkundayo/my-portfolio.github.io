@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 /* Variables*/
 :root {
@@ -32,7 +33,6 @@ li {
 /* base styles */
 body {
   background-color: var(--Blue);
-  overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   width: 100vw;
   height: 100%;
