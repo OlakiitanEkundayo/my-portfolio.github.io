@@ -22,6 +22,9 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   width: 100%;
+  background-color: var(--Blue);
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
 }
 
 /* reset */
@@ -41,10 +44,6 @@ li {
 
 /* base styles */
 body {
-  background-color: var(--Blue);
-  font-family: 'Montserrat', sans-serif;
-  width: 100vw;
-  height: 100%;
 }
 
 .button {
