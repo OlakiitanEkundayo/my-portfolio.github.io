@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 /* Variables*/
 :root {
@@ -14,9 +13,16 @@ section {
   padding: 10px 5%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 /* reset */
 
-body,
 p,
 a,
 ul,
@@ -52,27 +58,6 @@ body {
 .button:hover {
   background: var(--hover);
 }
-
-/* input,
-textarea {
-  background: rgba(255, 255, 255, 0);
-  padding: 10x 16px;
-  border-radius: 5px;
-  border: 1px solid #9893d8;
-  color: #f2f2f2;
-  outline: #383c8f;
-  width: 100%;
-  margin: 10px 0;
-} */
-
-/* ::placeholder {
-  color: #ffffff61;
-  padding-left: 5px;
-} */
-
-/* .form-box input {
-  padding: 15px 0;
-} */
 
 /* fonts */
 h1,
